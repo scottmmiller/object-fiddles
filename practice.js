@@ -189,6 +189,10 @@ for (var key in user) {
 // rather than my information.
 
   //Code Here
+user.name = 'Scott M';
+user.pwHash = 'wedkjsdoe3434';
+user.username = 'skootdiggity';
+
 
 
 
@@ -213,6 +217,8 @@ var user = {
 // name -> 'Tyler S. McGinnis', email -> 'tyler.mcginnis@devmounta.in'. Make that change.
 
   //Code Here
+
+
 
 //Now call the sayName method that's on the user object which will alert the users email
 
