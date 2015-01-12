@@ -115,11 +115,21 @@ for (var key in me) {
 //Create an Object called 'album' with 5 keys named different song titles that you make up, with the values being the length of each song.
 
   //Code Here
+var album = {
+  love: 5,
+  hate: 7,
+  angst: 3,
+  ire: 2,
+  depression: 6
+};
+
 
 //Now, loop through your album object alerting every song title individually.
 
   //Code Here
-
+for (var key in album) {
+  alert(key);
+};
 
 
 
@@ -131,6 +141,8 @@ for (var key in me) {
 //Create an object called states that has 5 US states as properties with the values being their population (doesn't have to be accurate).
 
   //Code Here
+
+
 
 //Now, loop through your states object and if the states population is greater than 30K, alert that state.
 
