@@ -180,7 +180,7 @@ that each value is truthy. If it's not truthy, remove it from the object. */
   //Code Here
 for (var key in user) {
   if (!user[key]) {
-    delete user.key;
+    delete user[key];
   };
 };
 
